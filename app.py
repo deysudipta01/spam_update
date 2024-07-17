@@ -6,6 +6,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from nltk.corpus import stopwords
 import nltk
+nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer
 
 app=Flask(__name__)
